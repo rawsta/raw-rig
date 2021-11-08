@@ -6,28 +6,28 @@
  **/
 
 :root {
-	--content-width: 45rem;
+	--content-width: 60rem;
 	--dropdown-symbol-width: 0.7em;
 
 	/* Typography */
 	--global-font-family: "Crimson Text", serif;
 	--highlight-font-family: "Roboto Condensed", "Helvetica Neue", "Arial Narrow", sans-serif;
 	--global-font-size: 20;
-	--global-font-line-height: 1.4;
+	--global-font-line-height: 1.6;
 
 	/* Custom editor font sizes */
-	--font-size-small: calc(16 / var(--global-font-size) * 1rem);
+	--font-size-small: calc(20 / var(--global-font-size) * 1rem);
 	--font-size-regular: calc(var(--global-font-size) / 16 * 1rem);
 	--font-size-large: calc(36 / var(--global-font-size) * 1rem);
 	--font-size-larger: calc(48 / var(--global-font-size) * 1rem);
 
 	/* Colors */
-	--global-font-color: #333;
-	--border-color-dark: #333;
+	--global-font-color: #454545;
+	--border-color-dark: #151515;
 	--border-color-light: #ccc;
-	--color-link: #0073aa;
-	--color-link-visited: #333;
-	--color-link-active: #00a0d2;
+	--color-link: #ff8300;
+	--color-link-visited: #830000;
+	--color-link-active: #ff5400;
 	--color-quote-border: #000;
 	--color-quote-citation: #6c7781;
 

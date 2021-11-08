@@ -68,24 +68,24 @@ if ( ! empty( $post->post_parent ) && 'attachment' === get_post_type() ) {
 		<?php
 	}
 
-	if ( ! empty( $author_string ) ) {
-		?>
-		<span class="posted-by">
-			<?php
-			/* translators: %s: post author */
-			$author_byline = _x( 'By %s', 'post author', 'wp-rig' );
-			if ( ! empty( $time_string ) ) {
-				/* translators: %s: post author */
-				$author_byline = _x( 'by %s', 'post author', 'wp-rig' );
-			}
-			printf(
-				esc_html( $author_byline ),
-				$author_string // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-			);
-			?>
-		</span>
-		<?php
-	}
+	// if ( ! empty( $author_string ) ) {
+	// 	?  >
+	// 	<span class="posted-by">
+	// 		<  ?php
+	// 		/* translators: %s: post author */
+	// 		$author_byline = _x( 'By %s', 'post author', 'wp-rig' );
+	// 		if ( ! empty( $time_string ) ) {
+	// 			/* translators: %s: post author */
+	// 			$author_byline = _x( 'by %s', 'post author', 'wp-rig' );
+	// 		}
+	// 		printf(
+	// 			esc_html( $author_byline ),
+	// 			$author_string // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	// 		);
+	// 		?  >
+	// 	</span>
+	// 	< ?php
+	// }
 
 	if ( ! empty( $parent_string ) ) {
 		?>
