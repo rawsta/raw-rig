@@ -9,7 +9,7 @@
 /* Make sure select elements fit in widgets. */
 .widget {
 	margin-top: 0;
-	margin-bottom: 1.5em;
+	margin-bottom: .5em;
 }
 
 .widget-area .widget {
